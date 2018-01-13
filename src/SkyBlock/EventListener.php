@@ -111,6 +111,13 @@ class EventListener implements Listener {
                     $this->addItemMultipleTimes(20, Item::get(Item::LAPIS_ORE), $items);
                     $this->addItemMultipleTimes(40, Item::get(Item::COAL), $items);
                     $this->addItemMultipleTimes(74, Item::get(Item::COBBLESTONE), $items);
+                    $this->addItemMultipleTimes(20, Item::get(264), $items);
+                    $this->addItemMultipleTimes(15, Item::get(41), $items);
+                    $this->addItemMultipleTimes(20, Item::get(15), $items);
+                    $this->addItemMultipleTimes(20, Item::get(266), $items);
+                    $this->addItemMultipleTimes(8, Item::get(388), $items);
+                    $this->addItemMultipleTimes(7, Item::get(57), $items);
+                     
                     $event->setDrops([$items[array_rand($items)]]);
                 }
             }
